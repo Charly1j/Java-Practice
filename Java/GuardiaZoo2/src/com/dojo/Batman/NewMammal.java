@@ -5,16 +5,17 @@ public class NewMammal {
 	//ATRIBUTO DE LA CLASE
 		public int energyLevel= 300;
 		
-		// CONSTRUCTOR
-		public NewMammal() {
-			
-		}
 		public NewMammal(int energyLevel) {
 			this.energyLevel = energyLevel;
 		}
 		public void displayEnergy() {
 			System.out.println("Nivel de Energia: "+ this.energyLevel);
 		}
+		public NewMammal() {
+		// CONSTRUCTOR
+			
+		}
+		//Gett & Sett
 		public int getEnergyLevel() {
 			return energyLevel;
 		}
